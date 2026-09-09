@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>老九门电视剧资源-高清全集在线观看与剧情解读指南</title>
+    <meta name="description" content="老九门电视剧资源专题站，提供高清全集在线观看指引、分集剧情介绍、角色关系图解、经典场景回顾与原著对比分析，助您轻松追剧不走弯路。">
+    <meta name="keywords" content="老九门电视剧,老九门全集,老九门在线观看,老九门剧情,老九门分集介绍,盗墓笔记前传,南派三叔,陈伟霆,张艺兴,老九门资源">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Arial, sans-serif;
+            background: #f5f0e8;
+            color: #2d2a26;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        ul, ol {
+            list-style: none;
+        }
+
+        /* ===== 页眉 ===== */
+        .site-header {
+            background: linear-gradient(145deg, #1a1a1a 0%, #2f2a24 100%);
+            padding: 18px 0;
+            border-bottom: 3px solid #c9a063;
+            position: relative;
+        }
+        .header-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .logo-area h1 {
+            font-size: 1.9rem;
+            font-weight: 700;
+            color: #e8d5b5;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+        }
+        .logo-area h1 span {
+            color: #c9a063;
+            font-style: italic;
+        }
+        .logo-area p {
+            font-size: 0.8rem;
+            color: #a99f92;
+            letter-spacing: 1px;
+            margin-top: 2px;
+        }
+        .header-search {
+            display: flex;
+            gap: 8px;
+        }
+        .header-search input {
+            padding: 8px 14px;
+            border-radius: 30px;
+            border: 1px solid #5a4e3e;
+            background: #2b2722;
+            color: #eee;
+            width: 220px;
+            font-size: 0.9rem;
+            outline: none;
+        }
+        .header-search button {
+            padding: 8px 18px;
+            border-radius: 30px;
+            border: none;
+            background: #c9a063;
+            color: #1a1a1a;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .header-search button:hover {
+            background: #ddb578;
+        }
+
+        /* ===== 主导航 ===== */
+        .main-nav {
+            background: #2b2722;
+            border-bottom: 1px solid #4a4036;
+        }
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .nav-inner a {
+            display: block;
+            padding: 12px 24px;
+            color: #d9ccb8;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            border-bottom: 3px solid transparent;
+        }
+        .nav-inner a:hover, .nav-inner a.active {
+            color: #f0e0c0;
+            background: #3a342c;
+            border-bottom-color: #c9a063;
+        }
+
+        /* ===== 主体容器 ===== */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 320px;
+            gap: 30px;
+        }
+        .main-content {
+            min-width: 0;
+        }
+        .sidebar {
+            min-width: 0;
+        }
+
+        /* ===== 首屏 Hero ===== */
+        .hero {
+            background: linear-gradient(135deg, #1e1c1a 0%, #3a3128 80%);
+            border-radius: 12px;
+            padding: 30px 28px;
+            margin-bottom: 30px;
+            border-left: 6px solid #c9a063;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        .hero-tag {
+            display: inline-block;
+            background: #c9a063;
+            color: #1a1a1a;
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 2px 12px;
+            border-radius: 20px;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        .hero h2 {
+            font-size: 1.8rem;
+            color: #f0e6d6;
+            line-height: 1.3;
+            margin-bottom: 12px;
+        }
+        .hero p {
+            color: #bdb1a1;
+            font-size: 1rem;
+            max-width: 600px;
+        }
+        .hero-actions {
+            margin-top: 20px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .btn-primary {
+            background: #c9a063;
+            padding: 10px 22px;
+            border-radius: 30px;
+            font-weight: 600;
+            color: #1a1a1a;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+        .btn-primary:hover {
+            background: #e0b877;
+        }
+        .btn-outline {
+            border: 1px solid #c9a063;
+            color: #e8d5b5;
+            padding: 10px 22px;
+            border-radius: 30px;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+        .btn-outline:hover {
+            background: rgba(201,160,99,0.15);
+        }
+
+        /* ===== 信息卡片区块 ===== */
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-left: 14px;
+            border-left: 5px solid #c9a063;
+            color: #2d2a26;
+            letter-spacing: 0.5px;
+        }
+        .section-title small {
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: #7a6f5f;
+            margin-left: 10px;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 36px;
+        }
+        .card {
+            background: #fffaf3;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid #e5dac9;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        .card-thumb {
+            height: 140px;
+            background: linear-gradient(145deg, #4a3f33, #2b2722);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #c9a063;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #c9a063;
+        }
+        .card-body {
+            padding: 16px;
+        }
+        .card-body h3 {
+            font-size: 1.05rem;
+            margin-bottom: 8px;
+            color: #2d2a26;
+        }
+        .card-body p {
+            font-size: 0.88rem;
+            color: #6b6153;
+            margin-bottom: 10px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: #9a8c7a;
+            border-top: 1px solid #eee3d3;
+            padding-top: 8px;
+        }
+        .card-meta span:last-child {
+            color: #b3893f;
+            font-weight: 500;
+        }
+
+        /* ===== 分集列表 ===== */
+        .episode-list {
+            background: #fffaf3;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 36px;
+            border: 1px solid #e5dac9;
+        }
+        .episode-list h3 {
+            font-size: 1.2rem;
+            margin-bottom: 14px;
+            color: #3a342c;
+        }
+        .episode-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 8px;
+        }
+        .episode-items a {
+            background: #f3ecdf;
+            padding: 8px 10px;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #4a4036;
+            transition: background 0.2s;
+            border: 1px solid transparent;
+        }
+        .episode-items a:hover {
+            background: #c9a063;
+            color: #1a1a1a;
+            border-color: #b3893f;
+        }
+
+        /* ===== 角色关系 ===== */
+        .role-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 36px;
+        }
+        .role-card {
+            background: #fffaf3;
+            padding: 16px;
+            border-radius: 10px;
+            border-left: 4px solid #c9a063;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .role-card h4 {
+            font-size: 1rem;
+            color: #2d2a26;
+            margin-bottom: 6px;
+        }
+        .role-card p {
+            font-size: 0.85rem;
+            color: #6b6153;
+        }
+
+        /* ===== 剧情解读 / 文章 ===== */
+        .article-block {
+            background: #fffaf3;
+            padding: 22px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #e5dac9;
+        }
+        .article-block h3 {
+            font-size: 1.15rem;
+            margin-bottom: 12px;
+            color: #2d2a26;
+        }
+        .article-block p {
+            font-size: 0.95rem;
+            color: #4a4036;
+            margin-bottom: 14px;
+        }
+        .article-block ul {
+            padding-left: 0;
+        }
+        .article-block ul li {
+            padding: 6px 0;
+            font-size: 0.92rem;
+            color: #4a4036;
+            border-bottom: 1px dashed #e5dac9;
+            display: flex;
+            align-items: center;
+        }
+        .article-block ul li::before {
+            content: "▸";
+            color: #c9a063;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+
+        /* ===== FAQ ===== */
+        .faq-item {
+            background: #fffaf3;
+            border-radius: 10px;
+            padding: 18px 20px;
+            margin-bottom: 12px;
+            border: 1px solid #e5dac9;
+        }
+        .faq-item h3 {
+            font-size: 1rem;
+            color: #2d2a26;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+        .faq-item p {
+            font-size: 0.92rem;
+            color: #5c5348;
+        }
+
+        /* ===== 侧边栏 ===== */
+        .sidebar-box {
+            background: #fffaf3;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #e5dac9;
+        }
+        .sidebar-box h3 {
+            font-size: 1.1rem;
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #c9a063;
+            color: #2d2a26;
+        }
+        .sidebar-list li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #e0d5c3;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+        }
+        .sidebar-list li::before {
+            content: "▪";
+            color: #c9a063;
+            margin-right: 8px;
+        }
+        .sidebar-list li a:hover {
+            color: #b3893f;
+        }
+        .hot-tag {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .hot-tag a {
+            background: #f0e7da;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: #4a4036;
+            border: 1px solid #d9cbb8;
+        }
+        .hot-tag a:hover {
+            background: #c9a063;
+            color: #1a1a1a;
+        }
+        .notice {
+            background: #fdf6e8;
+            border-left: 4px solid #c9a063;
+            padding: 12px 14px;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.88rem;
+            color: #6b5a3a;
+            margin-bottom: 14px;
+        }
+
+        /* ===== 页脚 ===== */
+        .site-footer {
+            background: #1f1d1a;
+            color: #9a8f80;
+            padding: 40px 20px 20px;
+            margin-top: 40px;
+            border-top: 3px solid #c9a063;
+        }
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+        .footer-col h4 {
+            color: #e8d5b5;
+            font-size: 1rem;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+        .footer-col a {
+            display: block;
+            padding: 4px 0;
+            font-size: 0.88rem;
+            color: #a99e8f;
+        }
+        .footer-col a:hover {
+            color: #c9a063;
+        }
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            font-size: 0.8rem;
+            color: #6b6153;
+            border-top: 1px solid #2f2a24;
+            margin-top: 30px;
+        }
+
+        /* ===== 响应式 ===== */
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                order: 2;
+            }
+            .hero h2 {
+                font-size: 1.4rem;
+            }
+            .nav-inner a {
+                padding: 10px 14px;
+                font-size: 0.9rem;
+            }
+            .header-search input {
+                width: 150px;
+            }
+        }
+        @media (max-width: 600px) {
+            .header-inner {
+                flex-direction: column;
+                gap: 12px;
+            }
+            .header-search {
+                width: 100%;
+            }
+            .header-search input {
+                flex: 1;
+            }
+            .card-thumb {
+                height: 100px;
+            }
+            .hero {
+                padding: 20px 18px;
+            }
+            .hero h2 {
+                font-size: 1.2rem;
+            }
+            .episode-items {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 页眉 -->
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo-area">
+                <h1>老九门<span>·</span>追剧情报站</h1>
+                <p>盗墓笔记前传 · 九门风云再起</p>
+            </div>
+            <div class="header-search">
+                <input type="text" placeholder="搜索剧集、角色或剧情">
+                <button>搜索</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 导航 -->
+    <nav class="main-nav">
+        <div class="nav-inner">
+            <a href="#" class="active">首页</a>
+            <a href="#">全集在线</a>
+            <a href="#">分集剧情</a>
+            <a href="#">角色关系</a>
+            <a href="#">经典场面</a>
+            <a href="#">原著对比</a>
+            <a href="#">幕后花絮</a>
+            <a href="#">讨论社区</a>
+        </div>
+    </nav>
+
+    <!-- 主体区域 -->
+    <div class="container">
+
+        <!-- 主要内容 -->
+        <main class="main-content">
+
+            <!-- 首屏 Hero 部分 -->
+            <section class="hero">
+                <span class="hero-tag">📺 全网热播 · 经典重刷</span>
+                <h2>老九门电视剧——民国盗墓传奇，九门恩怨一触即发</h2>
+                <p>改编自南派三叔同名小说，讲述长沙城九个盗墓世家的恩怨纠葛。陈伟霆饰演张启山、张艺兴饰演二月红，开启一段惊心动魄的冒险之旅。本站为您整理观看渠道、分集剧情与深度解读。</p>
+                <div class="hero-actions">
+                    <a href="#" class="btn-primary">📺 立即观看全集</a>
+                    <a href="#" class="btn-outline">📖 剧情分集介绍</a>
+                </div>
+            </section>
+
+            <!-- 观看渠道与资源说明 -->
+            <section>
+                <h2 class="section-title">观看渠道与资源说明<small>正版优先 · 更新提醒</small></h2>
+                <div class="article-block">
+                    <p>《老九门》电视剧于2016年首播，共48集（含番外）。目前主要观看渠道包括各大主流视频平台（如爱奇艺、腾讯视频等），部分平台需会员权限。本页汇总了各渠道的观看方式及剧情辅助资料，方便您快速找到所需内容。</p>
+                    <ul>
+                        <li><strong>完整剧集：</strong>共48集正片+多部番外篇，每集约45分钟</li>
+                        <li><strong>主要平台：</strong>爱奇艺（独播）、TV端、移动端均可观看</li>
+                        <li><strong>画质版本：</strong>提供高清1080P及4K修复版（部分平台）</li>
+                        <li><strong>辅助资源：</strong>分集剧情梗概、角色关系图、原著对比解析</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 热门剧集卡片 -->
+            <section>
+                <h2 class="section-title">热门推荐<small>观众最常看的几部</small></h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-thumb">🎬 老九门 · 第一季</div>
+                        <div class="card-body">
+                            <h3>老九门 全集（48集）</h3>
+                            <p>张启山与二月红联手探查矿山之谜，九门恩怨逐渐浮出水面。经典盗墓题材开山之作。</p>
+                            <div class="card-meta">
+                                <span>热度 98%</span>
+                                <span>全48集</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-thumb">📖 番外 · 二月红</div>
+                        <div class="card-body">
+                            <h3>二月红番外篇</h3>
+                            <p>讲述二月红与丫头之间的情感纠葛，以及他如何成为长沙名伶的过程。</p>
+                            <div class="card-meta">
+                                <span>热度 85%</span>
+                                <span>共6集</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-thumb">🗺️ 番外 · 虎骨梅花</div>
+                        <div class="card-body">
+                            <h3>虎骨梅花番外</h3>
+                            <p>围绕张启山探寻虎骨梅花线索，解开一段尘封的往事。</p>
+                            <div class="card-meta">
+                                <span>热度 72%</span>
+                                <span>共4集</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 分集剧情速览 -->
+            <section class="episode-list">
+                <h3>📋 分集剧情速览（第1-12集）</h3>
+                <div class="episode-items">
+                    <a href="#">第1集 九门初现</a>
+                    <a href="#">第2集 矿山疑云</a>
+                    <a href="#">第3集 二月红登场</a>
+                    <a href="#">第4集 神秘青铜器</a>
+                    <a href="#">第5集 丫头病重</a>
+                    <a href="#">第6集 张启山求药</a>
+                    <a href="#">第7集 矿山深处</a>
+                    <a href="#">第8集 九门会议</a>
+                    <a href="#">第9集 佛爷的过去</a>
+                    <a href="#">第10集 陈皮阿四</a>
+                    <a href="#">第11集 黑背老六</a>
+                    <a href="#">第12集 下斗前夕</a>
+                </div>
+                <p style="margin-top:15px; font-size:0.9rem; color:#7a6f5f;">📌 以上为前12集概要，完整1-48集分集剧情请访问“分集剧情”栏目。</p>
+            </section>
+
+            <!-- 角色关系 -->
+            <section>
+                <h2 class="section-title">主要角色与人物关系<small>九门中人</small></h2>
+                <div class="role-grid">
+                    <div class="role-card">
+                        <h4>张启山（佛爷）</h4>
+                        <p>九门之首，张家人，身手不凡，性格沉稳，为探查矿山秘密不惜以身犯险。陈伟霆饰。</p>
+                    </div>
+                    <div class="role-card">
+                        <h4>二月红</h4>
+                        <p>长沙名伶，九门第二，精通戏曲与盗墓之术，重情重义，与丫头感情至深。张艺兴饰。</p>
+                    </div>
+                    <div class="role-card">
+                        <h4>尹新月</h4>
+                        <p>张启山的妻子，聪慧勇敢，出身豪门，在关键时刻多次帮助张启山。赵丽颖饰。</p>
+                    </div>
+                    <div class="role-card">
+                        <h4>陈皮阿四</h4>
+                        <p>二月红的徒弟，心狠手辣，但极重恩情，后期成为九门之一。胡耕豪饰。</p>
+                    </div>
+                    <div class="role-card">
+                        <h4>吴老狗</h4>
+                        <p>九门第五，吴邪的爷爷，擅长驯狗，性格诙谐但关键时刻靠得住。</p>
+                    </div>
+                    <div class="role-card">
+                        <h4>解九爷</h4>
+                        <p>九门第六，精于算计，为人心思缜密，是九门的智囊。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 深度解读与文章 -->
+            <section>
+                <h2 class="section-title">剧情深度解读<small>看剧必备</small></h2>
+
+                <div class="article-block">
+                    <h3>《老九门》与《盗墓笔记》的关系</h3>
+                    <p>老九门的故事背景设定在民国时期，是《盗墓笔记》中吴邪等人祖辈的传奇。剧中张启山、吴老狗等人物正是《盗墓笔记》中张起灵、吴邪的祖先。理解这层关系，能更好地看懂整个盗墓宇宙的时间线。</p>
+                </div>
+                <div class="article-block">
+                    <h3>经典场景盘点：那些令人难忘的瞬间</h3>
+                    <ul>
+                        <li>张启山初探矿山，遭遇神秘生物</li>
+                        <li>二月红为救丫头，跪求佛爷</li>
+                        <li>九门齐聚，共商下斗大计</li>
+                        <li>陈皮阿四背叛师门，又幡然醒悟</li>
+                        <li>张启山与尹新月的婚礼插曲</li>
+                    </ul>
+                </div>
+                <div class="article-block">
+                    <h3>原著与电视剧差异对比</h3>
+                    <p>电视剧在原著基础上进行了大量改编，如增加了尹新月这一女性角色，强化了感情线。部分剧情节奏较原著放缓，但整体保留了九门的世界观和核心情节。建议先看剧再读原著，会有不同的体验。</p>
+                </div>
+            </section>
+
+            <!-- 常见问题 FAQ -->
+            <section>
+                <h2 class="section-title">常见问题解答<small>帮您快速解决疑惑</small></h2>
+
+                <div class="faq-item">
+                    <h3>Q1: 老九门电视剧一共多少集？在哪里可以看？</h3>
+                    <p>正剧共48集，另有番外篇若干。目前主要版权在爱奇艺平台，需要开通会员观看全部剧集。部分片段在官方短视频账号可免费观看。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q2: 老九门和盗墓笔记的观看顺序是什么？</h3>
+                    <p>如果按时间线，建议先看《老九门》了解前传，再看《盗墓笔记》正传。但两部剧风格和年代不同，独立观看也不影响理解。按播出顺序先看《盗墓笔记》再看《老九门》也有回味的乐趣。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q3: 有没有第二季？</h3>
+                    <p>目前官方尚未宣布《老九门》第二季的制作消息。网络上流传的“第二季”多为网友剪辑或误传。建议关注官方渠道获取最新动态。</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q4: 老九门中的“九门”具体指哪些？</h3>
+                    <p>九门指长沙城九个盗墓世家，按实力排名为一门张启山、二门二月红、三门半截李、四门陈皮阿四、五门吴老狗、六门解九爷、七门霍仙姑、八门齐铁嘴、九门黑背老六。</p>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- 侧边栏 -->
+        <aside class="sidebar">
+
+            <div class="sidebar-box">
+                <h3>📌 观看小贴士</h3>
+                <div class="notice">
+                    ⚠️ 请通过正规视频平台观看，支持正版。本站不提供任何盗版下载链接。
+                </div>
+                <p style="font-size:0.85rem; color:#6b6153;">如果您是第一次观看，建议从第1集开始，了解人物背景后观感更佳。部分番外篇可在正剧完结后观看。</p>
+            </div>
+
+            <div class="sidebar-box">
+                <h3>🔥 热门标签</h3>
+                <div class="hot-tag">
+                    <a href="#">张启山</a>
+                    <a href="#">二月红</a>
+                    <a href="#">尹新月</a>
+                    <a href="#">陈皮阿四</a>
+                    <a href="#">矿山之谜</a>
+                    <a href="#">九门会议</a>
+                    <a href="#">下斗</a>
+                    <a href="#">盗墓笔记前传</a>
+                    <a href="#">南派三叔</a>
+                    <a href="#">民国盗墓</a>
+                </div>
+            </div>
+
+            <div class="sidebar-box">
+                <h3>📺 猜你喜欢</h3>
+                <ul class="sidebar-list">
+                    <li><a href="#">盗墓笔记 电视剧</a></li>
+                    <li><a href="#">沙海 电视剧</a></li>
+                    <li><a href="#">怒晴湘西</a></li>
+                    <li><a href="#">终极笔记</a></li>
+                    <li><a href="#">重启之极海听雷</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-box">
+                <h3>📰 最新动态</h3>
+                <ul class="sidebar-list">
+                    <li>《老九门》开播七周年，官方发布纪念海报</li>
+                    <li>陈伟霆、张艺兴再度同框，引发剧迷回忆</li>
+                    <li>原著小说新版再版，包含未公开番外</li>
+                    <li>粉丝自制动画《老九门之九门往事》上线B站</li>
+                </ul>
+            </div>
+
+        </aside>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h4>追剧指南</h4>
+                <a href="#">全集在线观看指引</a>
+                <a href="#">分集剧情详解</a>
+                <a href="#">角色关系图谱</a>
+                <a href="#">经典台词集锦</a>
+            </div>
+            <div class="footer-col">
+                <h4>相关作品</h4>
+                <a href="#">盗墓笔记</a>
+                <a href="#">沙海</a>
+                <a href="#">怒晴湘西</a>
+                <a href="#">终极笔记</a>
+            </div>
+            <div class="footer-col">
+                <h4>关于本站</h4>
+                <a href="#">网站介绍</a>
+                <a href="#">版权声明</a>
+                <a href="#">联系我们</a>
+            </div>
+            <div class="footer-col">
+                <h4>友情链接</h4>
+                <a href="#">南派三叔微博</a>
+                <a href="#">爱奇艺老九门专题页</a>
+                <a href="#">老九门吧</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 老九门追剧情报站 · 本站仅提供信息整理与观剧辅助，不存储任何影视资源</p>
+            <p>请支持正版，通过正规渠道观看《老九门》电视剧</p>
+        </div>
+    </footer>
+
+    <!-- 统计脚本（按要求保留） -->
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</body>
+  </html>
