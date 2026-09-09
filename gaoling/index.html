@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高岭家的二朵花-热门韩漫推荐与在线阅读指南</title>
+    <meta name="description" content="高岭家的二朵花是一部备受关注的韩漫作品，本站提供作品介绍、角色解析、剧情走向、阅读指南与常见问题，帮助你全面了解这部漫画的看点与魅力。">
+    <meta name="keywords" content="高岭家的二朵花,韩漫,漫画推荐,在线阅读,角色介绍,剧情解析">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+            background: #faf7f2;
+            color: #3d2b1f;
+            line-height: 1.7;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* header */
+        .site-header {
+            background: #fff8f0;
+            border-bottom: 3px solid #e8c4a0;
+            padding: 18px 0;
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo-icon {
+            font-size: 2rem;
+            background: #f0c8a0;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .logo-text h1 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #7a4a2a;
+        }
+        .logo-text p {
+            font-size: 0.85rem;
+            color: #9a7b62;
+        }
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            gap: 28px;
+            flex-wrap: wrap;
+        }
+        .main-nav a {
+            font-size: 1rem;
+            font-weight: 500;
+            padding: 6px 0;
+            border-bottom: 2px solid transparent;
+            transition: 0.2s;
+            color: #5a3a24;
+        }
+        .main-nav a:hover {
+            border-bottom-color: #c98d5e;
+            color: #8b5a33;
+        }
+
+        /* hero */
+        .hero {
+            background: linear-gradient(135deg, #f7e4d0 0%, #fdf3e7 100%);
+            padding: 50px 0;
+            border-bottom: 1px solid #e8d5c0;
+        }
+        .hero-layout {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .hero-copy {
+            flex: 1 1 400px;
+        }
+        .hero-copy h2 {
+            font-size: 2.2rem;
+            line-height: 1.3;
+            margin-bottom: 16px;
+            color: #6b3a1f;
+        }
+        .hero-copy p {
+            font-size: 1.05rem;
+            max-width: 560px;
+            color: #5c4433;
+            margin-bottom: 24px;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: #c98d5e;
+            color: #fff;
+            padding: 6px 18px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        .hero-cover {
+            flex: 0 0 260px;
+            background: #e6d2c0;
+            height: 260px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #7a4a2a;
+            font-size: 1.2rem;
+            font-weight: 600;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            border: 4px solid #fff;
+            text-align: center;
+            padding: 20px;
+            background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.3) 0px, rgba(255,255,255,0.3) 2px, transparent 2px, transparent 8px);
+        }
+        .hero-cover span {
+            display: block;
+            background: #fff;
+            padding: 8px 16px;
+            border-radius: 30px;
+            margin-top: 12px;
+            font-size: 0.9rem;
+        }
+
+        /* info bar */
+        .info-bar {
+            background: #fff;
+            padding: 20px 0;
+            border-bottom: 1px solid #e8d5c0;
+        }
+        .info-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+        }
+        .info-item {
+            flex: 1 1 200px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .info-label {
+            font-size: 0.9rem;
+            color: #9a7b62;
+            font-weight: 500;
+        }
+        .info-value {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #5a3a24;
+        }
+
+        /* section */
+        .section {
+            padding: 50px 0;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #5a3a24;
+            position: relative;
+            padding-bottom: 12px;
+        }
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #c98d5e;
+            border-radius: 3px;
+        }
+        .section-sub {
+            color: #8a6d56;
+            margin-bottom: 30px;
+            font-size: 1rem;
+        }
+
+        /* intro cards */
+        .story-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 20px;
+        }
+        .story-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 26px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+            border: 1px solid #f0e2d4;
+            transition: 0.2s;
+        }
+        .story-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+        }
+        .card-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .story-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+            color: #6b3a1f;
+        }
+        .story-card p {
+            font-size: 0.95rem;
+            color: #6b5544;
+        }
+
+        /* character */
+        .char-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .char-item {
+            flex: 1 1 220px;
+            background: #fdf6ec;
+            border-radius: 16px;
+            padding: 22px;
+            border-left: 4px solid #c98d5e;
+        }
+        .char-item h4 {
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+        }
+        .char-item p {
+            font-size: 0.9rem;
+            color: #6b5544;
+        }
+
+        /* reading guide */
+        .guide-box {
+            background: #fff;
+            border-radius: 20px;
+            padding: 30px;
+            border: 1px solid #f0e2d4;
+            margin-top: 20px;
+        }
+        .guide-steps {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 16px;
+        }
+        .step {
+            flex: 1 1 200px;
+            background: #faf3ea;
+            border-radius: 12px;
+            padding: 18px;
+            text-align: center;
+        }
+        .step-num {
+            background: #c98d5e;
+            color: #fff;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin: 0 auto 10px;
+        }
+
+        /* faq */
+        .faq-list {
+            margin-top: 20px;
+        }
+        .faq-item {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 12px;
+            border: 1px solid #f0e2d4;
+        }
+        .faq-q {
+            font-weight: 600;
+            font-size: 1.05rem;
+            color: #5a3a24;
+            margin-bottom: 6px;
+            display: flex;
+            gap: 8px;
+        }
+        .faq-a {
+            color: #6b5544;
+            font-size: 0.95rem;
+            padding-left: 24px;
+        }
+
+        /* footer */
+        .site-footer {
+            background: #3d2b1f;
+            color: #d9c6b0;
+            padding: 40px 0 30px;
+            margin-top: 20px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .footer-brand {
+            font-size: 1.2rem;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .footer-links {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .footer-links a {
+            color: #d9c6b0;
+            font-size: 0.9rem;
+        }
+        .footer-links a:hover {
+            color: #fff;
+        }
+        .copyright {
+            margin-top: 30px;
+            border-top: 1px solid #5a4433;
+            padding-top: 16px;
+            font-size: 0.85rem;
+            color: #b09a84;
+        }
+
+        /* responsive */
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                text-align: center;
+            }
+            .main-nav ul {
+                justify-content: center;
+                gap: 16px;
+            }
+            .hero-layout {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero-copy p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .hero-cover {
+                width: 100%;
+                flex-basis: auto;
+                height: 200px;
+            }
+            .section {
+                padding: 36px 0;
+            }
+            .section-title {
+                font-size: 1.5rem;
+            }
+            .info-grid {
+                gap: 16px;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 14px;
+            }
+            .logo-text h1 {
+                font-size: 1.3rem;
+            }
+            .hero-copy h2 {
+                font-size: 1.7rem;
+            }
+            .char-list, .guide-steps {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo-area">
+            <div class="logo-icon">🌸</div>
+            <div class="logo-text">
+                <h1>高岭家的二朵花</h1>
+                <p>温暖治愈系韩漫专题</p>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#story">作品介绍</a></li>
+                <li><a href="#characters">主要角色</a></li>
+                <li><a href="#guide">阅读指南</a></li>
+                <li><a href="#faq">常见问题</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container hero-layout">
+        <div class="hero-copy">
+            <span class="hero-badge">📖 人气连载中</span>
+            <h2>关于“高岭家的二朵花”，你需要知道的都在这里</h2>
+            <p>这是一部围绕高岭家两位性格迥异的女儿展开的温馨家庭故事。漫画以细腻的笔触描绘了姐妹之间的日常互动、成长烦恼与彼此守护，在轻松治愈的氛围中传递着关于亲情与理解的力量。</p>
+        </div>
+        <div class="hero-cover">
+            🌸 高岭家的<br>二朵花
+            <span>家庭 · 治愈 · 日常</span>
+        </div>
+    </div>
+</section>
+
+<section class="info-bar">
+    <div class="container info-grid">
+        <div class="info-item">
+            <span class="info-label">作品类型</span>
+            <span class="info-value">家庭 / 日常 / 治愈</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">阅读方向</span>
+            <span class="info-value">韩漫 · 条漫形式</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">适合人群</span>
+            <span class="info-value">喜欢温馨故事的读者</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">内容基调</span>
+            <span class="info-value">轻松、暖心、有笑有泪</span>
+        </div>
+    </div>
+</section>
+
+<main>
+    <!-- 作品介绍 -->
+    <section class="section" id="story">
+        <div class="container">
+            <h2 class="section-title">作品故事概览</h2>
+            <p class="section-sub">姐妹二人，性格互补，碰撞出不一样的家庭火花</p>
+            <div class="story-grid">
+                <div class="story-card">
+                    <div class="card-icon">🏡</div>
+                    <h3>故事背景</h3>
+                    <p>高岭家是一个普通却充满温度的家庭。姐姐高岭若菜成熟稳重，妹妹高岭美羽活泼跳脱。父母因工作常不在家，姐妹俩在生活中互相照应，也常常因观念差异闹出各种小插曲。</p>
+                </div>
+                <div class="story-card">
+                    <div class="card-icon">💬</div>
+                    <h3>核心看点</h3>
+                    <p>漫画最动人的地方在于对日常细节的捕捉——一顿早餐、一次争吵、一场雨中的等待。没有惊天动地的剧情，却能让读者在姐妹的互动中看到自己与家人的影子。</p>
+                </div>
+                <div class="story-card">
+                    <div class="card-icon">🌱</div>
+                    <h3>成长主题</h3>
+                    <p>随着故事推进，姐妹俩各自面临学业、友情、未来的选择。她们在磕磕绊绊中学会倾听对方，也学会接纳自己，让“家”这个字有了更丰富的含义。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 角色介绍 -->
+    <section class="section" id="characters" style="background: #fdf6ec;">
+        <div class="container">
+            <h2 class="section-title">主要角色一览</h2>
+            <p class="section-sub">高岭家的两位女儿，性格鲜明却同样可爱</p>
+            <div class="char-list">
+                <div class="char-item">
+                    <h4>🌸 高岭若菜（姐姐）</h4>
+                    <p>17岁，高中二年级。性格沉稳细心，成绩优秀，喜欢料理和整理家务。表面看起来有些严肃，实际上非常关心妹妹，只是不擅长直接表达。</p>
+                </div>
+                <div class="char-item">
+                    <h4>🌼 高岭美羽（妹妹）</h4>
+                    <p>14岁，初中二年级。开朗乐观，喜欢运动和朋友一起玩。有时候冒冒失失，但心思单纯，总能用自己的方式温暖身边的人。</p>
+                </div>
+                <div class="char-item">
+                    <h4>🐱 高岭爸爸</h4>
+                    <p>经常出差，但每次回家都会带小礼物。看似粗线条，其实是家里的调和剂，总能在姐妹闹别扭时用幽默化解。</p>
+                </div>
+                <div class="char-item">
+                    <h4>🍰 高岭妈妈</h4>
+                    <p>职业女性，虽然忙碌却从不缺席女儿们的重要时刻。她的温柔和智慧是姐妹俩成长的引路灯。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 阅读指南 -->
+    <section class="section" id="guide">
+        <div class="container">
+            <h2 class="section-title">如何开始阅读</h2>
+            <p class="section-sub">无论你是刚听说这部作品，还是想重温精彩片段，都可以参考以下方式</p>
+            <div class="guide-box">
+                <div class="guide-steps">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <strong>了解顺序</strong>
+                        <p style="margin-top: 8px;">从第一话开始按顺序阅读，感受角色成长与故事节奏。</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <strong>关注更新</strong>
+                        <p style="margin-top: 8px;">关注官方平台或正版漫画应用，获取最新话推送。</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <strong>参与讨论</strong>
+                        <p style="margin-top: 8px;">在社区与其他读者交流感想，会发现更多细节和共鸣。</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">4</div>
+                        <strong>支持作者</strong>
+                        <p style="margin-top: 8px;">如果喜欢作品，建议通过正版渠道阅读，支持创作持续。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品亮点 -->
+    <section class="section" style="background: #fff;">
+        <div class="container">
+            <h2 class="section-title">作品亮点与风格</h2>
+            <p class="section-sub">为什么这部漫画值得一读？</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 30px;">
+                <div style="flex: 1 1 300px;">
+                    <h3 style="color: #6b3a1f; margin-bottom: 10px;">🎨 画风清新自然</h3>
+                    <p>线条柔和，色彩明快，场景多以居家、学校、街道为主，给人一种贴近生活的亲切感。人物的微表情刻画尤其生动，情绪传达非常到位。</p>
+                </div>
+                <div style="flex: 1 1 300px;">
+                    <h3 style="color: #6b3a1f; margin-bottom: 10px;">✍️ 台词细腻真实</h3>
+                    <p>姐妹之间的对话自然流畅，没有刻意的说教。很多台词都像是日常会发生的对话，但又能恰到好处地触动人心，让人会心一笑或眼眶发热。</p>
+                </div>
+                <div style="flex: 1 1 300px;">
+                    <h3 style="color: #6b3a1f; margin-bottom: 10px;">📚 节奏张弛有度</h3>
+                    <p>每话篇幅适中，既有轻松的日常碎片，也有关于成长与分离的认真探讨。整体节奏明快，不会让人感到拖沓或疲惫。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+        <div class="container">
+            <h2 class="section-title">常见问题</h2>
+            <p class="section-sub">关于《高岭家的二朵花》你可能想问的</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-q">❓ 这部漫画完结了吗？</div>
+                    <div class="faq-a">目前仍在连载中，具体进度请以正版平台显示为准。故事主线逐渐深入，可以持续关注后续发展。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">❓ 适合什么年龄段的读者？</div>
+                    <div class="faq-a">整体内容温馨健康，适合青少年及以上读者。其中对于家庭关系的探讨，成年人阅读也会产生共鸣。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">❓ 在哪里可以阅读正版？</div>
+                    <div class="faq-a">建议通过国内外的正版漫画平台或官方授权的阅读应用进行观看，这样能第一时间看到更新，也支持创作者。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">❓ 故事中有恋爱线吗？</div>
+                    <div class="faq-a">目前主线聚焦于姐妹亲情与个人成长，但部分配角之间也有朦胧的情感描写，属于辅助线，不会喧宾夺主。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">❓ 为什么叫“二朵花”？</div>
+                    <div class="faq-a">“二朵花”指代高岭家的两个女儿，寓意她们如同两朵不同种类的花，在同一片土壤中各自绽放，彼此陪伴。</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div>
+                <div class="footer-brand">🌸 高岭家的二朵花 · 专题页</div>
+                <p style="font-size: 0.9rem; max-width: 400px;">本站为非官方爱好者整理页面，仅提供作品介绍、阅读指引等参考信息，不提供任何盗版内容。</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">作品介绍</a>
+                <a href="#">角色档案</a>
+                <a href="#">阅读建议</a>
+                <a href="#">关于本站</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 高岭家的二朵花爱好者专题 · 请支持正版漫画 · 本页面仅供信息参考</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
